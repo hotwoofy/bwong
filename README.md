@@ -5,4 +5,5 @@ Mac OS X shell script that speaks lines of text from STDIN interspersed with an 
 
 ````shell
 echo -e "hello\nworld" | ./bwong.sh
+cat lines.txt | ./bwong.sh
 ````
